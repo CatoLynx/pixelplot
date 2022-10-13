@@ -1,0 +1,9 @@
+name = "pixelplot"
+version = "1.0.0"
+description = "Limited plotting tool for limited display devices"
+license = "MIT"
+author = "Julian Metzler"
+author_email = "git@mezgr.de"
+requires = ['Pillow']
+url = "https://github.com/Mezgrman/pixelplot"
+keywords = "graph plot pixel display data visualization chart"
