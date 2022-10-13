@@ -1,5 +1,5 @@
 name = "pixelplot"
-version = "1.0.0"
+version = "1.0.1"
 description = "Limited plotting tool for limited display devices"
 license = "MIT"
 author = "Julian Metzler"

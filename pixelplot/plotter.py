@@ -274,7 +274,7 @@ def xy_line(width, height, points, *args, **kwargs):
     draw = ImageDraw.Draw(img)
     for i in range(len(points) - 1):
         draw.line(((_x_pos(points[i][0]), _y_pos(points[i][1])), (_x_pos(points[i+1][0]), _y_pos(points[i+1][1]))), fill=kwargs['fgcolor'])
-    img.show()
+    return img
 
 def xy_bars(width, height, points, bar_width, *args, **kwargs):
     img, origin, points, _x_pos, _y_pos = xy_skel(width, height, points, *args, **kwargs)
